@@ -1,0 +1,41 @@
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.notFound .container {
+  max-width: 600px;
+}
+
+.notFound img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.notFound h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.notFound p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.back-home {
+  text-decoration: none;
+  background: #ff5a5f;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.back-home:hover {
+  background: #e14c50;
+}
